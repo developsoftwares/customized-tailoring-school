@@ -1,66 +1,58 @@
-.header_top {
-    background: none repeat scroll 0 0 rgb(182, 182, 165);
+
+.bg-img {
+    /* The image used */
+    background-image: url("https://fabric-direct.co.uk/wp-content/uploads/2018/10/Learning_To_Sew.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+  }
+
+    .navbar a, ul li a {
+      color: white;
   }
 
 
-
-  .social-icons ul li a {
-    border: 0 none;
-    border-radius: 0;
-    color: #696763;
-    padding: 0px;
+.intro-header {
+    height: unset !important;
   }
-  
-  
-  .social-icons ul li {
-    display: inline-block;
+  .view {
+   height: 100vh !important;
   }
-  
-  .social-icons ul li a i {
-    padding: 11px 15px;
-    transition: all 0.9s ease 0s;
-    -moz-transition: all 0.9s ease 0s;
-    -webkit-transition: all 0.9s ease 0s;
-    -o-transition: all 0.9s ease 0s;
+  .btn .fa {
+    margin-left: 3px;
   }
-  
-  .social-icons ul li a i:hover {
-    color: #fff;
-    transition: all 0.9s ease 0s;
-    -moz-transition: all 0.9s ease 0s;
-    -webkit-transition: all 0.9s ease 0s;
-    -o-transition: all 0.9s ease 0s;
+  .top-nav-collapse {
+    background-color: #424f95 !important;
   }
-
-  .social-icons .nav.navbar-nav {
-    display: inline-block;
+  .navbar:not(.top-nav-collapse) {
+    /* background: transparent !important; */
+    background: #424f95 !important;
+   
   }
-
-  
-.fa-facebook:hover {
-    background: #0083C9;
+  /* @media (max-width: 1500px) {
+    .navbar:not(.top-nav-collapse) {
+      background: #424f95 !important;
+    }
+  } */
+  h6 {
+    line-height: 1.7;
   }
-  
-  .fa-twitter:hover {
-    background: #5BBCEC;
+  .rgba-gradient .full-bg-img {
+    background: linear-gradient(45deg, rgba(42, 27, 161, 0.6), rgba(29, 210, 177, 0.6) 100%);
   }
-  
-  .fa-linkedin:hover {
-    background: #FF4518;
+  @media (max-width: 450px) {
+    .margins {
+      margin-right: 1rem;
+      margin-left: 1rem;
+    }
   }
-  
-  .fa-dribbble:hover {
-    background: #90C9DC;
+  @media (max-width: 740px) {
+    .full-height,
+    .full-height body,
+    .full-height header,
+    .full-height header .view {
+      height: 1020px;
+    }
   }
-  
-  .fa-google-plus:hover {
-    background: #CE3C2D;
-  }
-  
-
-  .contactinfo .nav-pills{
-    color: black;
-    text-align: justify;
-  }
-
 
